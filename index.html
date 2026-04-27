@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Sustentável | Futuro Forte</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="light-theme">
+    <header>
+        <nav id="navbar">
+            <div class="logo">Agro<span>Verde</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Equilíbrio</a></li>
+                <li><a href="#contato">Engaje-se</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Alternar modo escuro">🌓</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1 id="welcome-text">Produzir para Nutrir, Preservar para Existir</h1>
+                <p>O equilíbrio entre a alta produtividade no campo e a regeneração do ecossistema é o único caminho para um futuro próspero.</p>
+                <button class="btn-main" onclick="saibaMais()">Descobrir Impacto</button>
+            </div>
+        </section>
+
+        <section id="sobre" class="info-grid">
+            <div class="card" id="card-producao">
+                <h3>Produção Eficiente</h3>
+                <p>Uso de tecnologia de precisão para reduzir o desperdício de insumos e otimizar a colheita.</p>
+            </div>
+            <div class="card" id="card-meio-ambiente">
+                <h3>Meio Ambiente</h3>
+                <p>Recuperação de nascentes e corredores ecológicos integrados à lavoura.</p>
+            </div>
+        </section>
+
+        <section id="contato">
+            <form id="contact-form">
+                <h2>Faça parte da mudança</h2>
+                <div class="input-group">
+                    <label for="nome">Seu Nome:</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome..." required>
+                </div>
+                <button type="submit" class="btn-submit">Enviar Interesse</button>
+            </form>
+            <div id="feedback-message" class="hidden"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Projeto Agrinho - Sustentabilidade no Campo</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
